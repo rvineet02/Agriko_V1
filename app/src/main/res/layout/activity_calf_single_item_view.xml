@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <TextView
+        android:id="@+id/calflabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calflabel2" />
+
+    <TextView
+        android:id="@+id/calf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/calflabel2" />
+
+    <TextView
+        android:id="@+id/namelabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calf2"
+        android:text="@string/namelabel2" />
+
+    <TextView
+        android:id="@+id/country2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calflabel2"
+        android:layout_toRightOf="@+id/namelabel2" />
+
+    <TextView
+        android:id="@+id/bornlabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namelabel2"
+        android:text="@string/bornlabel2" />
+
+    <TextView
+        android:id="@+id/born"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country2"
+        android:layout_toRightOf="@+id/bornlabel2" />
+
+    <TextView
+        android:id="@+id/sexlabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bornlabel2"
+        android:text="@string/sexlabel2" />
+
+    <TextView
+        android:id="@+id/sex2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bornlabel2"
+        android:layout_toRightOf="@+id/sexlabel2" />
+
+    <!--<Button-->
+        <!--android:id="@+id/button8"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/sexlabel2"-->
+        <!--android:onClick="onClick"-->
+        <!--android:text="Next" />-->
+
+
+
+
+
+
+
+</RelativeLayout>

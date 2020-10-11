@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/namelabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/namelabel3" />
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/namelabel3" />
+
+
+    <TextView
+        android:id="@+id/condition1label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name3"
+        android:text="@string/condition1lalbel3" />
+
+    <TextView
+        android:id="@+id/country3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namelabel3"
+        android:layout_toRightOf="@+id/condition1label3" />
+
+    <TextView
+        android:id="@+id/diseaselabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/condition1label3"
+        android:text="@string/diseaselabel3" />
+
+    <TextView
+        android:id="@+id/disease3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country3"
+        android:layout_toRightOf="@+id/diseaselabel3" />
+
+    <TextView
+        android:id="@+id/descriptionlabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diseaselabel3"
+        android:text="@string/descritpionlabel3" />
+
+
+    <TextView
+        android:id="@+id/description3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diseaselabel3"
+        android:layout_toRightOf="@+id/descriptionlabel3" />
+
+    <TextView
+        android:id="@+id/medicationlabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descriptionlabel3"
+        android:text="@string/medicationlabel3" />
+
+
+    <TextView
+        android:id="@+id/medication3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description3"
+        android:layout_toRightOf="@+id/medicationlabel3" />
+
+
+    <TextView
+        android:id="@+id/heightlabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/medicationlabel3"
+        android:text="@string/heightlabel3" />
+
+
+    <TextView
+        android:id="@+id/height3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/medication3"
+        android:layout_toRightOf="@+id/heightlabel3" />
+
+
+    <TextView
+        android:id="@+id/weightlabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heightlabel3"
+        android:text="@string/weightlabel3" />
+
+    <TextView
+        android:id="@+id/weight3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/height3"
+        android:layout_toRightOf="@+id/weightlabel3" />
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button8"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/weightlabel3"-->
+        <!--android:onClick="onClick"-->
+        <!--android:text="Next" />-->
+
+
+
+</RelativeLayout>

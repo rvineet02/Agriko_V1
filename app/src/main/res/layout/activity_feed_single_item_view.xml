@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+
+
+
+    <TextView
+        android:id="@+id/feedlabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/feedlabel2" />
+
+    <TextView
+        android:id="@+id/feed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/feedlabel2" />
+
+    <TextView
+        android:id="@+id/quantitylabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feed2"
+        android:text="@string/quantitylabel2" />
+
+
+    <TextView
+        android:id="@+id/country3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feedlabel2"
+        android:layout_toRightOf="@+id/quantitylabel2" />
+
+    <TextView
+        android:id="@+id/purchaselabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quantitylabel2"
+        android:text="@string/purchaselabel2" />
+
+
+    <TextView
+        android:id="@+id/purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country3"
+        android:layout_toRightOf="@+id/quantitylabel2" />
+
+
+    <TextView
+        android:id="@+id/pricelabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/purchaselabel2"
+        android:text="@string/pricelabel2" />
+
+    <TextView
+        android:id="@+id/price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/purchaselabel2"
+        android:layout_toRightOf="@+id/pricelabel2" />
+
+
+</RelativeLayout>
